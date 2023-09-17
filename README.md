@@ -1,5 +1,8 @@
 # Apple Store 预约助手
 
+## 更新iPhone15 系列
+User：@silas-wen
+
 ## 更新 iPhone14 系列
 
 ## 重要提示
@@ -23,6 +26,9 @@ go run main.go
 go get github.com/fyne-io/fyne-cross
 fyne-cross darwin -arch=amd64,arm64
 fyne-cross darwin -arch=amd64,arm64 -app-id=apple-store-helper
+
+# Silas补充: M系列芯片MacOS可用
+GOOS=darwin GOARCH=arm64 go build -o apple-store-helper
 ```
 
 ## 使用方法
